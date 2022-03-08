@@ -97,3 +97,34 @@
 // } else {
 //     alert("Aprovado");
 // }
+
+// ------------Exercicio 06-------------
+let opcaoHotel = prompt("Digite a opcao: \n 1 - CheckIn \n 2 - Checkout \n 3 - Estender Hospedagem \n 4 - Sair");
+
+switch (opcaoHotel) {
+    case "1":
+        alert("Boas vindas!!!!");
+        break;
+    case "2":
+        let certeza = prompt("Tem certeza? SIM/Nao");
+        if (certeza === "SIM")
+            alert("Adeus");
+        else
+            alert("Que bom que ira ficar");
+        break;
+    case "3":
+       let estenderHospedagem = prompt("Quantos dias deseja estender na sua hospedagem?");
+
+        if (isNaN(estenderHospedagem)) {
+            alert("Numero de dias invalido");
+            throw "Numero de dias invalido";
+        }
+        alert(`Sucesso!! Sua hospedagem foi estendida em ${estenderHospedagem} dias`);
+        break;
+    case "4":
+        alert("Ok");
+        break;
+    default:
+        alert("Opção invalida");
+        break;
+}
