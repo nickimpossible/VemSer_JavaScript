@@ -72,3 +72,28 @@
 //         break;
 // }
 
+//----------Exercicio 05-------------
+// let t1 = prompt("nota do trabalho 1");
+// if (isNaN(t1)){
+//     alert("valor invalido");
+//     throw "valor invalido";
+// }
+// let t2 = prompt("nota do trabalho 2");
+// if (isNaN(t2)){
+//     alert("valor invalido");
+//     throw "valor invalido";
+// }
+// let p1 = prompt("nota da prova 1");
+// if (isNaN(p1)){
+//     alert("valor invalido");
+//     throw "valor invalido";
+// }
+// let media = (parseFloat(t1) + parseFloat(t2) + parseFloat(p1)) / 3;
+// console.log(media);
+// if (media < 5){
+//     alert("Reprovado");
+// } else if (media <= 7){
+//     alert("Recuperação");
+// } else {
+//     alert("Aprovado");
+// }
